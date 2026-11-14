@@ -1,4 +1,4 @@
-export const TARGET_HTML = "几猫国产3A大作_V1.html";
+export const TARGET_HTML = "墨陆国产3A大作_V1.html";
 
 export const MODULES = [
   { path: "src/template/head.html", marker: null, desc: "HTML 头部与 Meta 定义" },
@@ -18,7 +18,7 @@ export const MODULES = [
   { path: "src/gameplay/input.js", marker: 'var h_={KeyW:"forward",', desc: "键鼠、触屏双摇杆与标准手柄统一输入层" },
   { path: "src/gameplay/player.js", marker: "var Mt={walk:3.8,", desc: "第一人称角色移动物理、呼吸摇晃、后坐力与受击反馈" },
   { path: "src/gameplay/combat.js", marker: "function zv(i){let e={shots:0,hits:0,kills:0};", desc: "射线命中判定、弱点倍率与爆炸范围伤害计算" },
-  { path: "src/gameplay/weapon.js", marker: "var Xv={};br(Xv,{create:()=>dm,showcase:()=>PC});", desc: "几猫九式突击步枪 (PAC-9) 建模、全息瞄具着色器与换弹动作状态机" },
+  { path: "src/gameplay/weapon.js", marker: "var Xv={};br(Xv,{create:()=>dm,showcase:()=>PC});", desc: "墨陆九式突击步枪 (PAC-9) 建模、全息瞄具着色器与换弹动作状态机" },
   { path: "src/gameplay/enemies.js", marker: "var ex={};br(ex,{TUNE:()=>Ui,create:()=>Em,showcase:()=>VC});", desc: "骨骼绑定系统、四足猎犬三关节解析 IK、无人机与令牌制战术 AI" },
   { path: "src/ui/hud.js", marker: "var tx=4,nx=-90,WC=450,", desc: "战术罗盘、目标追踪、动态准星、受击方向弧与无线电字幕" },
   { path: "src/ui/menus.js", marker: 'var fM="saltline.settings.v1",', desc: "主菜单、暂停/阵亡/战报界面与画质/灵敏度持久化设置面板" },

@@ -46,11 +46,11 @@
 
 ## 源码目录结构
 
-为兼顾**“单文件零依赖直接分发”**与**“模块化日常开发维护”**，项目将单文件产物 [`几猫国产3A大作_V1.html`](几猫国产3A大作_V1.html) 无损拆解至 `src/` 目录，并通过 Node.js 构建脚本双向同步：
+为兼顾**“单文件零依赖直接分发”**与**“模块化日常开发维护”**，项目将单文件产物 [`墨陆国产3A大作_V1.html`](墨陆国产3A大作_V1.html) 无损拆解至 `src/` 目录，并通过 Node.js 构建脚本双向同步：
 
 ```text
 3Agame/
-├── 几猫国产3A大作_V1.html        # 可直接双击在浏览器运行的单文件完整版（1.42 MB）
+├── 墨陆国产3A大作_V1.html        # 可直接双击在浏览器运行的单文件完整版（1.42 MB）
 ├── package.json                  # npm 脚本入口（split / build / verify / start）
 ├── README.md                     # 项目说明文档
 ├── scripts/
@@ -101,8 +101,8 @@
 ## 快速开始与构建工作流
 
 ### 1. 直接游玩
-- **方式 A**：用支持 WebGL2 的现代浏览器（Chrome / Edge / Safari / Firefox）直接打开 [`几猫国产3A大作_V1.html`](几猫国产3A大作_V1.html)。
-- **方式 B（推荐）**：启动本地静态服务器后通过 `http://localhost:8080/几猫国产3A大作_V1.html` 访问（Pointer Lock 鼠标锁定在 HTTP 环境下最稳定）：
+- **方式 A**：用支持 WebGL2 的现代浏览器（Chrome / Edge / Safari / Firefox）直接打开 [`墨陆国产3A大作_V1.html`](墨陆国产3A大作_V1.html)。
+- **方式 B（推荐）**：启动本地静态服务器后通过 `http://localhost:8080/墨陆国产3A大作_V1.html` 访问（Pointer Lock 鼠标锁定在 HTTP 环境下最稳定）：
 
 ```bash
 npm start
@@ -111,13 +111,13 @@ npm start
 
 ### 2. 修改源码并重新构建单文件（需 Node.js >= 18）
 
-修改 `src/` 下任意模块后，执行打包脚本将其重新合成为 [`几猫国产3A大作_V1.html`](几猫国产3A大作_V1.html)：
+修改 `src/` 下任意模块后，执行打包脚本将其重新合成为 [`墨陆国产3A大作_V1.html`](墨陆国产3A大作_V1.html)：
 
 ```bash
-# 校验当前 src/ 与 几猫国产3A大作_V1.html 是否 100% 字节一致
+# 校验当前 src/ 与 墨陆国产3A大作_V1.html 是否 100% 字节一致
 npm run verify
 
-# 修改 src/ 后重新构建生成单文件 几猫国产3A大作_V1.html
+# 修改 src/ 后重新构建生成单文件 墨陆国产3A大作_V1.html
 npm run build
 
 # 若直接编辑了 HTML，可反向同步回 src/
