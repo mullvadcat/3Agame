@@ -25,18 +25,18 @@ var fM="saltline.settings.v1",XC={quality:"auto",sens:1,invertY:!1,volume:.8,fov
     <div class="m-veil"></div>
     <div class="m-bars"><i></i><i></i></div>
 
-    <section class="m-screen m-title" data-s="title" aria-label="几猫">
+    <section class="m-screen m-title" data-s="title" aria-label="墨陆">
       <div class="m-title-main">
-        <div class="m-eyebrow"><span class="m-tag">B4</span><span>几猫突击小队</span><span class="m-dim">几猫港区 · 05:42</span></div>
-        <h1 class="m-word">几猫<span class="m-subtitle">3A大作</span></h1>
-        <p class="m-premise">港区防御系统失控。切断三处中继，突破封锁，登船撤离。</p>
+        <div class="m-eyebrow"><span class="m-tag">B4</span><span>代号：墨陆 · 暗潮行动</span><span class="m-dim">墨陆港区 · 05:42</span></div>
+        <h1 class="m-word">墨陆<span class="m-subtitle">暗潮泊位</span></h1>
+        <p class="m-premise">“深渊”主控叛乱，四号泊位全境封锁。物理熔断三座上行中继，撕开机械防线，登艇撤离。</p>
         <div class="m-actions">
           <button class="btn primary" data-act="deploy">开始行动</button>
           <button class="btn" data-act="settings">设置</button>
           <button class="btn" data-act="about">项目介绍</button>
           <button class="btn m-only-narrow" data-act="controls">操作说明</button>
         </div>
-        <p class="m-note">使用 Fable5.2 自主研发 · 国产第一人称射击游戏 · 开发体验版</p>
+        <p class="m-note">墨陆 (Mò Lù) 独立创作 · 纯代码过程化 3A 战术第一人称射击游戏</p>
       </div>
       <aside class="m-legend" aria-label="操作速览">
         <div><span><kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd> 移动</span><span><kbd>鼠标</kbd> 视角</span><span><kbd>左键</kbd> 开火</span><span><kbd>右键</kbd> 瞄准</span><span><kbd>R</kbd> 换弹</span></div>
@@ -58,15 +58,15 @@ var fM="saltline.settings.v1",XC={quality:"auto",sens:1,invertY:!1,volume:.8,fov
     </section>
 
     <section class="m-screen m-card m-dead" data-s="dead" aria-label="信号中断">
-      <div class="m-k">突击队员倒下</div>
+      <div class="m-k">特工“墨陆”失去联络</div>
       <h2 class="m-h">信号中断</h2>
       <dl class="m-stats"><div><dt>生存时间</dt><dd data-f="dead-time">00:00</dd></div><div><dt>已切断中继</dt><dd data-f="dead-relays">0/3</dd></div></dl>
       <div class="m-actions col"><button class="btn primary" data-act="retry">重试</button></div>
     </section>
 
     <section class="m-screen m-card m-debrief" data-s="complete" aria-label="行动简报">
-      <div class="m-k">四号泊位 · 行动简报</div>
-      <h2 class="m-h">几猫港区已解除封锁</h2>
+      <div class="m-k">暗潮行动 · 四号泊位简报</div>
+      <h2 class="m-h">墨陆港区已解除封锁</h2>
       <div class="m-rating"><span>行动评级</span><b data-f="rating">干净利落</b></div>
       <dl class="m-stats">
         <div><dt>用时</dt><dd data-f="time">00:00</dd></div>
@@ -87,11 +87,11 @@ var fM="saltline.settings.v1",XC={quality:"auto",sens:1,invertY:!1,volume:.8,fov
         <button class="btn small" data-act="close-panel">关闭</button>
       </header>
       <div class="panel-b about-copy" data-pane="about" hidden>
-        <h3>几猫3A大作</h3>
-        <p>各位老师、同学好！宣传一下我们最近使用 Fable5.2 自主研发的一款国产 3A FPS 大作——<strong>《几猫》</strong>！🎮</p>
-        <p>我们致力于打造具有中国特色的高品质第一人称射击游戏，融合沉浸式战斗体验、创新玩法与次世代视觉表现，探索国产 FPS 游戏的更多可能性。</p>
-        <p>目前项目仍在持续开发与优化中，距离国际顶尖 3A 水准还有一定差距。</p>
-        <p>非常欢迎各位老师、同学关注、体验并提出宝贵建议，期待与游戏开发、图形学及 AI 方向的朋友深入交流！🐱🔥</p>
+        <h3>《墨陆：暗潮泊位》</h3>
+        <p>欢迎体验由独立创作者 <strong>墨陆 (Mò Lù)</strong> 打造的纯代码过程化 3A 战术第一人称射击游戏——<strong>《墨陆：暗潮泊位》</strong>！🎮</p>
+        <p><strong>【故事背景】</strong>凌晨 05:42，暴雨席卷墨陆重工四号深水泊位（Berth 4）。港区第四代战术主控 AI“深渊（ABYSS-4）”突发逻辑叛乱，封锁全部水陆通道，并驱使空中“机械飞鸥”与地面“机械猎犬”执行无差别歼灭。</p>
+        <p><strong>【核心任务】</strong>你将扮演首席安全架构师兼特遣队员<strong>“墨陆”</strong>，手持墨陆九式突击步枪（PAC-9）孤身潜入封锁区，在机械狂潮的合围下物理熔断堆场、仓库与码头的三座高功率上行中继，最终由南端舷梯登上墨陆撤离艇突围。</p>
+        <p>本项目采用零外部美术与音频资产的纯 WebGL2 / GLSL 3.00 ES 与 Web Audio API 过程化生成架构，欢迎交流反馈！⚡</p>
       </div>
       <div class="panel-b" data-pane="settings">
         <div class="row"><label id="l-q">画面质量</label>
@@ -112,5 +112,5 @@ var fM="saltline.settings.v1",XC={quality:"auto",sens:1,invertY:!1,volume:.8,fov
       </div>
     </div>
 
-    <div class="loc-card" aria-hidden="true"><i></i><b>几猫港区 · 四号泊位 · 05:42</b><span>几猫突击小队 · 单兵行动，无人支援</span></div>
+    <div class="loc-card" aria-hidden="true"><i></i><b>墨陆港区 · 四号泊位 · 05:42</b><span>代号：墨陆 · 孤身潜入，通信受阻</span></div>
   `,t.appendChild(s);let o=U=>s.querySelector(U),r=U=>[...s.querySelectorAll(U)],a=o(".panel"),l=o(".loc-card"),c=U=>s.querySelector(`[data-f="${U}"]`),u=o("#s-sens"),h=o("#s-vol"),f=o("#s-fov"),p="none",d=null;function v(U){if((!U||U==="sens")&&(i.input.sensitivity=n.sens),(!U||U==="invertY")&&(i.input.invertY=n.invertY),!U||U==="volume")try{i.audio&&i.audio.setVolume&&i.audio.setVolume(n.volume)}catch(T){console.error(T)}if((!U||U==="fov")&&i.player&&i.player.setFov&&i.player.setFov(n.fov),U==="quality"||!U&&n.quality!=="auto"&&!i.params.shot&&!i.params.q&&n.quality!==(i.quality&&i.quality.name)){let T=Pr[n.quality];if(T)try{i.render&&i.render.setQuality?i.render.setQuality({...T}):i.quality={...T}}catch(D){console.error("[game] setQuality failed",D)}}}function g(){let U=n.quality==="auto"?i.quality&&i.quality.name:n.quality;for(let D of r(".seg button"))D.setAttribute("aria-pressed",String(D.dataset.q===U));u.value=n.sens,h.value=Math.round(n.volume*100),f.value=n.fov,o('[data-o="sens"]').textContent=n.sens.toFixed(2)+"\xD7",o('[data-o="vol"]').textContent=Math.round(n.volume*100)+"%",o('[data-o="fov"]').textContent=Math.round(n.fov)+"\xB0";let T=o('[data-act="invert"]');T.setAttribute("aria-pressed",String(n.invertY)),T.querySelector("span").textContent=n.invertY?"开启":"关闭",c("qnote").textContent=n.quality==="auto"?`已根据设备自动选择画质（${({low:"低",medium:"中",high:"高",ultra:"极高"})[U]||"默认"}），运行不流畅时可降低画质。`:"画质设置立即生效；阴影和反射需要片刻重新生成。"}u.addEventListener("input",()=>{n.sens=+u.value,v("sens"),g(),Wf(n)}),h.addEventListener("input",()=>{n.volume=+h.value/100,v("volume"),g(),Wf(n)}),f.addEventListener("input",()=>{n.fov=+f.value,v("fov"),g(),Wf(n)});let x=o('[data-row="fs"]'),y=o("#fs-t"),b=()=>document.fullscreenElement||document.webkitFullscreenElement||null,m=document.getElementById("app")||document.documentElement;m&&(m.requestFullscreen||m.webkitRequestFullscreen)&&document.fullscreenEnabled!==!1&&document.webkitFullscreenEnabled!==!1||(x.hidden=!0);function _(){y.textContent="当前环境不支持全屏"}function M(){try{if(b()){(document.exitFullscreen||document.webkitExitFullscreen).call(document);return}let U=(m.requestFullscreen||m.webkitRequestFullscreen).call(m);U&&U.catch&&U.catch(_)}catch{_()}}let E=()=>{y.textContent=b()?"退出全屏":"进入全屏"};document.addEventListener("fullscreenchange",E),document.addEventListener("webkitfullscreenchange",E);function w(U){d=document.activeElement,a.hidden=!1,s.classList.add("panel-open"),z(U||"settings");try{a.focus({preventScroll:!0})}catch{}}function S(){return a.hidden?!1:(a.hidden=!0,s.classList.remove("panel-open"),d&&d.focus&&s.contains(d)?d.focus():H(),!0)}function z(U){for(let T of r(".tab"))T.setAttribute("aria-selected",String(T.dataset.tab===U));for(let T of r(".panel-b"))T.hidden=T.dataset.pane!==U}function H(){let U=s.querySelector(`.m-screen[data-s="${p}"] .btn.primary`);if(U)try{U.focus({preventScroll:!0})}catch{}}s.addEventListener("click",U=>{let T=U.target.closest("button");if(!T||!s.contains(T))return;if(i.events.emit("ui:click",{}),T.dataset.q){n.quality=T.dataset.q,v("quality"),g(),Wf(n);return}if(T.dataset.tab){z(T.dataset.tab);return}let D=T.dataset.act;D==="about"?w("about"):D==="settings"?w("settings"):D==="controls"?w("controls"):D==="close-panel"?S():D==="invert"?(n.invertY=!n.invertY,v("invertY"),g(),Wf(n)):D==="fullscreen"?M():D&&e[D]&&e[D](U)}),s.addEventListener("mouseover",U=>{let T=U.target.closest("button");T&&U.relatedTarget&&!T.contains(U.relatedTarget)&&i.events.emit("ui:hover",{})}),s.addEventListener("keydown",U=>{if(U.code==="Escape"&&!a.hidden&&(S(),U.stopPropagation(),U.preventDefault()),U.code==="Tab"&&!a.hidden){let T=[...a.querySelectorAll("button, input")].filter(G=>G.offsetParent!==null);if(!T.length)return;let D=T[0],C=T[T.length-1];U.shiftKey&&document.activeElement===D?(C.focus(),U.preventDefault()):!U.shiftKey&&document.activeElement===C&&(D.focus(),U.preventDefault())}});let O=U=>(U=Math.max(0,Math.floor(U)),String(Math.floor(U/60)).padStart(2,"0")+":"+String(U%60).padStart(2,"0")),q={root:s,settings:n,fmtTime:O,get screen(){return p},get panelOpen(){return!a.hidden},closePanel:S,show(U){U!==p&&(p=U,s.dataset.screen=U,S(),s.classList.toggle("open",U!=="none"),U!=="none"?(g(),setTimeout(H,30)):document.activeElement&&s.contains(document.activeElement)&&document.activeElement.blur())},locationCard(U){l.classList.toggle("on",!!U)},setLookMode(U){c("lookmode").textContent=U||""},setDead({time:U,relays:T,total:D}){c("dead-time").textContent=O(U),c("dead-relays").textContent=`${T}/${D}`},setDebrief({time:U,accuracy:T,kills:D,retries:C,rating:G}){c("time").textContent=O(U),c("acc").textContent=T==null?"\u2014":Math.round(T*100)+"%",c("kills").textContent=String(D),c("retries").textContent=String(C),c("rating").textContent=G},applySettings:v};return g(),q}

@@ -1,7 +1,7 @@
 {
   "name": "3agame",
   "version": "1.0.0",
-  "description": "几猫3A大作 —— 零外部资产、纯代码过程化生成的 WebGL2 第一人称射击游戏",
+  "description": "墨陆：暗潮泊位 (Mò Lù: Abyss Berth) — Zero-dependency procedural WebGL2 3D FPS game",
   "type": "module",
   "scripts": {
     "split": "node scripts/split.mjs",
