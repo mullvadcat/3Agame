@@ -1,0 +1,12 @@
+{
+  "name": "3agame",
+  "version": "1.0.0",
+  "description": "几猫3A大作 —— 零外部资产、纯代码过程化生成的 WebGL2 第一人称射击游戏",
+  "type": "module",
+  "scripts": {
+    "split": "node scripts/split.mjs",
+    "build": "node scripts/build.mjs",
+    "verify": "node scripts/build.mjs --check",
+    "start": "python3 -m http.server 8080"
+  }
+}
